@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+   
+    <form method="POST" action="a.php">
+        Name: <input type="text" name="name" size="15" required/><br>
+        
+        Email: <input type="email" name="email" size="15" required/><br><br>
+         Password: <input type="password" name="password" size="15" required/><br><br>
+        
+        Mobile Number: <input type="text" name="mobile_number" size="10" required/><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="male" required> Male<br>
+        <input type="radio" name="gender" value="female" required> Female<br><br>
+
+        Languages:<br>
+        <input type="checkbox" name="languages[]" value="PHP"> PHP
+        <input type="checkbox" name="languages[]" value="C"> C
+        <input type="checkbox" name="languages[]" value="PERL"> PERL
+        <input type="checkbox" name="languages[]" value="C++"> C++
+        <input type="checkbox" name="languages[]" value="JAVA"> JAVA<br><br>
+
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
